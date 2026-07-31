@@ -14,7 +14,7 @@ export const fleet = [
       groundClearance: "210 mm",
       drivetrain: "ALLGRIP PRO 4x4 with Low Range"
     },
-    image: "https://images.unsplash.com/photo-1695662979146-5debe49ee312?auto=format&fit=crop&w=1200&q=80",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Jimny/6182/1784178896232/front-left-side-47.jpg",
     features: ["Hill Hold Assist", "Brake LSD", "Compact Rugged Design", "Touchscreen Display"]
   },
   {
@@ -32,7 +32,7 @@ export const fleet = [
       groundClearance: "226 mm",
       drivetrain: "Shift-on-the-fly 4x4"
     },
-    image: "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=1200&q=80",
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/143951/mahindra-thar-right-front-three-quarter0.jpeg?isig=0&wm=0",
     features: ["Removable Roof Panel", "Roll Cage Protection", "Drizzle Resistant Interior", "Adventure Statistics"]
   },
   {
@@ -50,7 +50,7 @@ export const fleet = [
       groundClearance: "180 mm",
       drivetrain: "Rear-Wheel Drive (RWD)"
     },
-    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80",
+    image: "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/128413/scorpio-exterior-right-front-three-quarter-2.png?isig=0&q=80&q=80",
     features: ["Captain Seats", "Rugged ladder-frame", "Powerful low-end torque", "Ample Luggage Capacity"]
   },
   {
@@ -68,7 +68,7 @@ export const fleet = [
       groundClearance: "220 mm",
       drivetrain: "4x4 with Low-Range"
     },
-    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9oGd_kgs9q32QqtgWv-BHUGU-M4DlAxjnXIaszBNB1Z8wOZyGr8IUkMn&s=10",
     features: ["Plush Leather Seats", "Supreme Road Presence", "Indestructible Reliability", "Climate Control"]
   },
   {
@@ -86,7 +86,7 @@ export const fleet = [
       groundClearance: "187 mm",
       drivetrain: "4XPLOR Intelligent 4x4"
     },
-    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80",
+    image: "https://imgd.aeplcdn.com/664x374/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-11.jpeg?isig=0&q=80&q=80",
     features: ["Sunroof", "Sony 3D Premium Audio", "Frequency Selective Damping", "AdrenoX Connected Car Tech"]
   }
 ];
