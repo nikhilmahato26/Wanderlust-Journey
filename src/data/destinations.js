@@ -5,7 +5,7 @@ export const destinations = [
     altitude: "13,058 ft",
     distance: "51 km from Manali",
     description: "The gateway to Lahaul & Spiti, offering year-round snow, majestic peaks, and thrilling glacier drives.",
-    image: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80"
+    image: "/rohtang-pass.jpg"
   },
   {
     id: "atal-tunnel",

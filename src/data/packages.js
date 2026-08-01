@@ -19,7 +19,7 @@ export const packages = [
     description: "A thrilling day tour climbing up to 13,058 ft. Experience high-altitude views, glacier walks, and adrenaline-pumping driving conditions in the snow.",
     duration: "1 Day (8-10 Hours)",
     highlights: ["Snow Point Activities", "Rahala Waterfalls stop", "Atal Tunnel return route", "Fully Permitted 4x4 Transit"],
-    image: "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80",
+    image: "/rohtang-pass.jpg",
     difficulty: "Easy to Moderate",
     bestSeason: "May - Nov"
   },
