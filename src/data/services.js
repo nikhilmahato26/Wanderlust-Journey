@@ -113,7 +113,7 @@ export const taxiFleet = [
     type: "Sedan (AC)",
     capacity: "4+1 Passengers",
     description: "Highly fuel-efficient and comfortable, perfect for couple trips, local sightseeing, and clean highway drives.",
-    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/141899/swift-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+    image: "https://5.imimg.com/data5/SELLER/Default/2022/11/VT/XI/LB/46622689/maruti-suzuki-swift-dzire.jpeg"
   },
   {
     id: "ertiga",
@@ -121,7 +121,7 @@ export const taxiFleet = [
     type: "MUV (AC)",
     capacity: "6+1 Passengers",
     description: "Budget-friendly family option with ample seating and luggage space, ideal for sightseeing and outstation packages.",
-    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115477/ertiga-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/120337/maruti-suzuki-ertiga-left-front-three-quarter0.jpeg?isig=0"
   },
   {
     id: "innova-crysta",
@@ -129,7 +129,7 @@ export const taxiFleet = [
     type: "Premium MUV (AC)",
     capacity: "7+1 Passengers",
     description: "The gold standard of premium long-distance travel, offering exceptional luxury, space, and ultimate suspension comfort.",
-    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/134287/innova-crysta-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9oyau30ZQxJWe5lXmOVyOk8mQZmQeNZ5oEWIAPu-BHEGKPR2UXQ_D6Rw&s=10"
   },
   {
     id: "tempo-traveller",
@@ -137,7 +137,7 @@ export const taxiFleet = [
     type: "Luxury Group Coach",
     capacity: "12 - 17 Passengers",
     description: "Perfect for larger groups, corporate treks, and big families. Equipped with pushback seats, screen entertainment, and ample boot space.",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Force-Motors/Tempo-Traveller/11536/1715837691896/front-left-side-47.jpg"
+    image: "https://www.forcemotors.com/wp-content/uploads/2025/02/Traveller-Wider-Body-SWB-12D13D-Banner_1.webp"
   },
   {
     id: "jimny-taxi",
