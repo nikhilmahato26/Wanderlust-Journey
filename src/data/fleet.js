@@ -5,7 +5,7 @@ export const fleet = [
     category: "Self Drive",
     price: "4,500",
     seating: "4 Seater",
-    transmission: "Automatic/Manual",
+    transmission: "Manual",
     fuel: "Petrol",
     perfectFor: ["Mountains", "Couples", "Weekend Trips"],
     specs: {
@@ -23,7 +23,7 @@ export const fleet = [
     category: "Self Drive",
     price: "5,500",
     seating: "4 Seater",
-    transmission: "Manual/Automatic",
+    transmission: "Manual",
     fuel: "Diesel/Petrol",
     perfectFor: ["Adventure", "Snow", "Off Road"],
     specs: {
@@ -41,7 +41,7 @@ export const fleet = [
     category: "Self Drive",
     price: "7,000",
     seating: "7 Seater",
-    transmission: "Manual 6-Speed",
+    transmission: "Manual",
     fuel: "Diesel",
     perfectFor: ["Family Trips", "Long Distance", "Mountains"],
     specs: {
@@ -57,9 +57,9 @@ export const fleet = [
     id: "fortuner",
     name: "Toyota Fortuner (Classic)",
     category: "Self Drive",
-    price: "7,000",
+    price: "12,000",
     seating: "7 Seater",
-    transmission: "Automatic/Manual",
+    transmission: "Manual",
     fuel: "Diesel",
     perfectFor: ["Luxury Travel", "Family", "Himachal Tours"],
     specs: {
@@ -77,7 +77,7 @@ export const fleet = [
     category: "Self Drive",
     price: "12,000",
     seating: "7 Seater",
-    transmission: "Automatic/Manual",
+    transmission: "Manual",
     fuel: "Diesel",
     perfectFor: ["Premium Adventure", "Luxury Off Road", "Himalayan Expeditions"],
     specs: {
@@ -88,5 +88,41 @@ export const fleet = [
     },
     image: "https://imgd.aeplcdn.com/664x374/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-11.jpeg?isig=0&q=80&q=80",
     features: ["Sunroof", "Sony 3D Premium Audio", "Frequency Selective Damping", "AdrenoX Connected Car Tech"]
+  },
+  {
+    id: "thar-roxx",
+    name: "Mahindra Thar Roxx 4x4",
+    category: "Self Drive",
+    price: "8,000",
+    seating: "5 Seater",
+    transmission: "Manual",
+    fuel: "Diesel",
+    perfectFor: ["Adventure", "Premium Off Road", "Snow Drives"],
+    specs: {
+      engine: "2.2L mHawk Diesel",
+      power: "150/172 bhp",
+      groundClearance: "226 mm",
+      drivetrain: "4x4 with Low-Range"
+    },
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/174323/thar-roxx-exterior-right-front-three-quarter.jpeg?isig=0&q=80&q=80",
+    features: ["Panoramic Skyroof", "Harman Kardon Audio", "360 Camera", "Ventilated Front Seats"]
+  },
+  {
+    id: "hilux",
+    name: "Toyota Hilux 4x4",
+    category: "Self Drive",
+    price: "10,000",
+    seating: "5 Seater",
+    transmission: "Manual",
+    fuel: "Diesel",
+    perfectFor: ["Heavy Expeditions", "Rugged Off Road", "Couples / Groups"],
+    specs: {
+      engine: "2.8L GD Turbo Diesel",
+      power: "201 bhp",
+      groundClearance: "216 mm",
+      drivetrain: "4x4 with Low-Range"
+    },
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/109265/hilux-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80&q=80",
+    features: ["800mm Water Wading", "Heavy Cargo Deck", "Premium Leather Cabin", "Downhill Assist Control"]
   }
 ];

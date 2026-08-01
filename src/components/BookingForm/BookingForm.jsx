@@ -167,8 +167,10 @@ Please confirm availability and share pricing.`;
             >
               <option value="Jimny">Maruti Jimny 4x4 (₹4,500/d)</option>
               <option value="Thar">Mahindra Thar 4x4 (₹5,500/d)</option>
+              <option value="Thar Roxx">Mahindra Thar Roxx 4x4 (₹8,000/d)</option>
               <option value="Scorpio">Mahindra Scorpio Classic (₹7,000/d)</option>
-              <option value="Fortuner">Toyota Fortuner Classic (₹7,000/d)</option>
+              <option value="Fortuner">Toyota Fortuner Classic (₹6,000/d)</option>
+              <option value="Hilux">Toyota Hilux 4x4 (₹10,000/d)</option>
               <option value="Scorpio N Sigma">Scorpio N Sigma 4x4 (₹12,000/d)</option>
               <option value="4x4 Taxi Option">4x4 Taxi (Rohtang/Shinkula/Baralacha)</option>
               <option value="Sightseeing Sedan/SUV">Sightseeing Taxi (Local/Sissu/Kullu)</option>
