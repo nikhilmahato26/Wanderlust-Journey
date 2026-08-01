@@ -11,9 +11,64 @@ export default function TaxiServices() {
   return (
     <section id="taxi-services" className="py-20 sm:py-28 bg-[#FFFFFF] text-gray-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+        {/* Available Taxi Fleet Sub-section */}
+        <div className="mt-4 pt-1 ">
+          <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
+            <span className="font-luxury font-bold text-xs uppercase tracking-widest text-[#D97706]">
+              Fleet Options
+            </span>
+            <h3 className="font-heading text-3xl sm:text-4xl font-bold text-gray-900">
+              Our Professional Taxi Fleet
+            </h3>
+            <p className="font-body text-sm text-gray-500">
+              Fully insured, clean, and customized tourist cabs driven by local pathfinders.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {taxiFleet.map((vehicle) => (
+              <div
+                key={vehicle.id}
+                className="bg-gray-50 rounded-2xl overflow-hidden border border-gray-150 flex flex-col group hover:shadow-xl transition-all duration-300"
+              >
+                <div className="h-48 overflow-hidden relative">
+                  <img
+                    src={vehicle.image}
+                    alt={vehicle.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute top-3 left-3 bg-[#111827]/75 backdrop-blur-md px-3 py-1 rounded-md text-[9px] font-luxury font-bold uppercase tracking-wider text-[#D97706]">
+                    {vehicle.type}
+                  </div>
+                </div>
+                <div className="p-5 flex flex-col flex-1">
+                  <div className="flex justify-between items-start gap-2 mb-2">
+                    <h4 className="font-luxury font-bold text-sm text-gray-950 uppercase tracking-wide">
+                      {vehicle.name}
+                    </h4>
+                    <span className="text-[10px] bg-[#1E5631]/10 text-[#1E5631] px-2 py-0.5 rounded font-bold font-body uppercase shrink-0">
+                      {vehicle.capacity}
+                    </span>
+                  </div>
+                  <p className="font-body text-xs text-gray-500 leading-relaxed mb-5">
+                    {vehicle.description}
+                  </p>
+                  <a
+                    href={contactInfo.whatsappLink(`Hi Wanderlust Journeys! I would like to book a Taxi service for "${vehicle.name}". Please share rates and availability.`)}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-auto flex items-center justify-center gap-1.5 bg-[#1E5631] hover:bg-[#D97706] text-white py-2.5 rounded-xl font-luxury font-bold text-xs tracking-wider uppercase transition-colors"
+                  >
+                    <FaWhatsapp className="w-3.5 h-3.5 text-[#D97706]" />
+                    Book Cab
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
         {/* Section Title */}
-        <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
+        <div className="text-center max-w-2xl mx-auto space-y-4 mb-16 mt-10 py-10">
           <span className="font-luxury font-bold text-xs uppercase tracking-widest text-[#D97706]">
             Elite Mountain Cabs
           </span>
@@ -193,62 +248,7 @@ export default function TaxiServices() {
           </div>
         )}
 
-        {/* Available Taxi Fleet Sub-section */}
-        <div className="mt-24 pt-16 border-t border-gray-200">
-          <div className="text-center max-w-2xl mx-auto space-y-4 mb-16">
-            <span className="font-luxury font-bold text-xs uppercase tracking-widest text-[#D97706]">
-              Fleet Options
-            </span>
-            <h3 className="font-heading text-3xl sm:text-4xl font-bold text-gray-900">
-              Our Professional Taxi Fleet
-            </h3>
-            <p className="font-body text-sm text-gray-500">
-              Fully insured, clean, and customized tourist cabs driven by local pathfinders.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {taxiFleet.map((vehicle) => (
-              <div
-                key={vehicle.id}
-                className="bg-gray-50 rounded-2xl overflow-hidden border border-gray-150 flex flex-col group hover:shadow-xl transition-all duration-300"
-              >
-                <div className="h-48 overflow-hidden relative">
-                  <img
-                    src={vehicle.image}
-                    alt={vehicle.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute top-3 left-3 bg-[#111827]/75 backdrop-blur-md px-3 py-1 rounded-md text-[9px] font-luxury font-bold uppercase tracking-wider text-[#D97706]">
-                    {vehicle.type}
-                  </div>
-                </div>
-                <div className="p-5 flex flex-col flex-1">
-                  <div className="flex justify-between items-start gap-2 mb-2">
-                    <h4 className="font-luxury font-bold text-sm text-gray-950 uppercase tracking-wide">
-                      {vehicle.name}
-                    </h4>
-                    <span className="text-[10px] bg-[#1E5631]/10 text-[#1E5631] px-2 py-0.5 rounded font-bold font-body uppercase shrink-0">
-                      {vehicle.capacity}
-                    </span>
-                  </div>
-                  <p className="font-body text-xs text-gray-500 leading-relaxed mb-5">
-                    {vehicle.description}
-                  </p>
-                  <a
-                    href={contactInfo.whatsappLink(`Hi Wanderlust Journeys! I would like to book a Taxi service for "${vehicle.name}". Please share rates and availability.`)}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-auto flex items-center justify-center gap-1.5 bg-[#1E5631] hover:bg-[#D97706] text-white py-2.5 rounded-xl font-luxury font-bold text-xs tracking-wider uppercase transition-colors"
-                  >
-                    <FaWhatsapp className="w-3.5 h-3.5 text-[#D97706]" />
-                    Book Cab
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        
 
       </div>
     </section>
