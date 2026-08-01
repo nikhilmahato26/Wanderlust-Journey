@@ -105,3 +105,62 @@ export const normalTaxiServices = [
     offers: ["Full Day Tour", "Customized Stopover", "Family Tour"]
   }
 ];
+
+export const taxiFleet = [
+  {
+    id: "dzire",
+    name: "Suzuki Swift Dzire",
+    type: "Sedan (AC)",
+    capacity: "4+1 Passengers",
+    description: "Highly fuel-efficient and comfortable, perfect for couple trips, local sightseeing, and clean highway drives.",
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/141899/swift-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+  },
+  {
+    id: "ertiga",
+    name: "Maruti Suzuki Ertiga",
+    type: "MUV (AC)",
+    capacity: "6+1 Passengers",
+    description: "Budget-friendly family option with ample seating and luggage space, ideal for sightseeing and outstation packages.",
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/115477/ertiga-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+  },
+  {
+    id: "innova-crysta",
+    name: "Toyota Innova Crysta",
+    type: "Premium MUV (AC)",
+    capacity: "7+1 Passengers",
+    description: "The gold standard of premium long-distance travel, offering exceptional luxury, space, and ultimate suspension comfort.",
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/134287/innova-crysta-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+  },
+  {
+    id: "tempo-traveller",
+    name: "Force Tempo Traveller",
+    type: "Luxury Group Coach",
+    capacity: "12 - 17 Passengers",
+    description: "Perfect for larger groups, corporate treks, and big families. Equipped with pushback seats, screen entertainment, and ample boot space.",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Force-Motors/Tempo-Traveller/11536/1715837691896/front-left-side-47.jpg"
+  },
+  {
+    id: "jimny-taxi",
+    name: "Maruti Jimny 4x4",
+    type: "Rugged 4x4 Taxi",
+    capacity: "4 Passengers",
+    description: "Compact 4x4 SUV driven by mountain experts. Perfect for narrow high-altitude passes, mud trails, and couple sightseeing.",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Jimny/6182/1784178896232/front-left-side-47.jpg"
+  },
+  {
+    id: "scorpio-n-taxi",
+    name: "Mahindra Scorpio N 4x4",
+    type: "Premium 4x4 SUV Taxi",
+    capacity: "6/7 Passengers",
+    description: "Conquer snow, sand, and mountains in style. Premium luxury seating coupled with advanced 4XPLOR terrain modes.",
+    image: "https://imgd.aeplcdn.com/664x374/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-11.jpeg?isig=0&q=80&q=80"
+  },
+  {
+    id: "thar-taxi",
+    name: "Mahindra Thar 4x4",
+    type: "Rugged Offroad 4x4 Taxi",
+    capacity: "4 Passengers",
+    description: "The ultimate mountain legend. Prepare to climb snow banks and cross severe streams with zero hesitation.",
+    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/143951/mahindra-thar-right-front-three-quarter0.jpeg?isig=0&wm=0"
+  }
+];
