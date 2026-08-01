@@ -104,7 +104,7 @@ export const fleet = [
       groundClearance: "226 mm",
       drivetrain: "4x4 with Low-Range"
     },
-    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/174323/thar-roxx-exterior-right-front-three-quarter.jpeg?isig=0&q=80&q=80",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar-ROXX/11939/1778649951124/front-left-side-47.jpg",
     features: ["Panoramic Skyroof", "Harman Kardon Audio", "360 Camera", "Ventilated Front Seats"]
   },
   {
@@ -122,7 +122,7 @@ export const fleet = [
       groundClearance: "216 mm",
       drivetrain: "4x4 with Low-Range"
     },
-    image: "https://imgd.aeplcdn.com/1200x900/n/cw/ec/109265/hilux-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80&q=80",
+    image: "https://imgd.aeplcdn.com/1056x594/n/5tprgkb_1978880.jpg?q=80",
     features: ["800mm Water Wading", "Heavy Cargo Deck", "Premium Leather Cabin", "Downhill Assist Control"]
   }
 ];
