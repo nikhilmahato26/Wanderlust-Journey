@@ -89,7 +89,7 @@ export default function App() {
             <Destinations />
 
             {/* CSS Bento Gallery */}
-            <BentoGallery />
+            
 
             {/* Touch Slide Testimonials Reviews */}
             <Testimonials />

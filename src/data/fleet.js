@@ -54,8 +54,8 @@ export const fleet = [
     features: ["Captain Seats", "Rugged ladder-frame", "Powerful low-end torque", "Ample Luggage Capacity"]
   },
   {
-    id: "fortuner",
-    name: "Toyota Fortuner (Classic)",
+    id: "fortuner-new",
+    name: "Toyota Fortuner (New Shape)",
     category: "Self Drive",
     price: "12,000",
     seating: "7 Seater",
@@ -63,13 +63,31 @@ export const fleet = [
     fuel: "Diesel",
     perfectFor: ["Luxury Travel", "Family", "Himachal Tours"],
     specs: {
-      engine: "3.0L D-4D / 2.8L GD Turbo",
-      power: "170 bhp / 201 bhp",
+      engine: "2.8L GD Turbo",
+      power: "201 bhp",
       groundClearance: "220 mm",
       drivetrain: "4x4 with Low-Range"
     },
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw9oGd_kgs9q32QqtgWv-BHUGU-M4DlAxjnXIaszBNB1Z8wOZyGr8IUkMn&s=10",
     features: ["Plush Leather Seats", "Supreme Road Presence", "Indestructible Reliability", "Climate Control"]
+  },
+  {
+    id: "fortuner-old",
+    name: "Toyota Fortuner (Old Shape 2015-16)",
+    category: "Self Drive",
+    price: "6,000",
+    seating: "7 Seater",
+    transmission: "Manual",
+    fuel: "Diesel",
+    perfectFor: ["Budget Luxury", "Family Trips", "Himachal Tours"],
+    specs: {
+      engine: "3.0L D-4D Diesel",
+      power: "170 bhp",
+      groundClearance: "220 mm",
+      drivetrain: "4x4 with Low-Range"
+    },
+    image: "https://financialexpresswpcontent.s3.amazonaws.com/uploads/2019/05/Generation-1-Toyota-Fortuner-2015-Front-660x440.jpg",
+    features: ["Reliable D-4D Engine", "Leather Interiors", "Classic Styling", "Dual AC vents"]
   },
   {
     id: "scorpio-n",
