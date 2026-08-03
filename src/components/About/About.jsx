@@ -117,7 +117,7 @@ export default function About() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] group">
               <img
-                src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80"
+                src="https://www.sahyogmantratours.com/images/blogs/rohtang-pass-20231007115721-1_crop.jpg"
                 alt="Thar Driving through Snow Road"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -129,13 +129,13 @@ export default function About() {
             </div>
 
             {/* Secondary Floating Image */}
-            <div className="absolute -bottom-10 -left-10 w-2/3 hidden sm:block rounded-2xl overflow-hidden border-8 border-white shadow-xl aspect-square group">
+            {/* <div className="absolute -bottom-10 -left-10 w-2/3 hidden sm:block rounded-2xl overflow-hidden border-8 border-white shadow-xl aspect-square group">
               <img
-                src="https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=600&q=80"
+                src="https://www.sahyogmantratours.com/images/blogs/rohtang-pass-20231007115721-1_crop.jpg"
                 alt="Off Road Jimny Trail"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
-            </div>
+            </div> */}
           </motion.div>
         </div>
 
