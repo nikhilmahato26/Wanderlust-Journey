@@ -5,7 +5,7 @@ export const destinations = [
     altitude: "13,058 ft",
     distance: "51 km from Manali",
     description: "The gateway to Lahaul & Spiti, offering year-round snow, majestic peaks, and thrilling glacier drives.",
-    image: "/rohtang-pass.jpg"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiFIRHz6eIdAsmkH9f-6oFVu5I2feYJzN-HYSS2GCINSXP-GZx1Y9J2314&s=10"
   },
   {
     id: "atal-tunnel",
@@ -13,7 +13,7 @@ export const destinations = [
     altitude: "10,040 ft",
     distance: "28 km from Manali",
     description: "An engineering marvel, this 9.02 km tunnel connects Manali to Lahaul Valley, cutting travel time by hours.",
-    image: "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=800&q=80"
+    image: "https://blog.civilianz.com/wp-content/uploads/2021/04/20201003125107_Atal-tunnel.jpg"
   },
   {
     id: "sissu",
@@ -21,7 +21,7 @@ export const destinations = [
     altitude: "10,230 ft",
     distance: "40 km from Manali",
     description: "Located on the other side of Atal Tunnel, Sissu features a magnificent waterfall, willow trees, and Beas river streams.",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtAH-_tqkuq-wGvvxdxzztNUEjdlDJWIHdmvOBd8m-M4-wumWbIWKbpQY&s=10"
   },
   {
     id: "solang-valley",
@@ -29,7 +29,7 @@ export const destinations = [
     altitude: "8,400 ft",
     distance: "14 km from Manali",
     description: "A hub for adventure sports, offering paragliding, zorbing, skiing in winter, and ATV off-road rides.",
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b2/79/37/solang-valley-manali.jpg?w=900&h=500&s=1"
   },
   {
     id: "kullu",
@@ -37,7 +37,7 @@ export const destinations = [
     altitude: "4,193 ft",
     distance: "40 km from Manali",
     description: "Known as the Valley of Gods, famous for river rafting, ancient temples, local shawl handlooms, and apple orchards.",
-    image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80"
+    image: "https://hblimg.mmtcdn.com/content/hubble/img/Dest_img/mmt/activities/m_Kullu_destination_image_2025jan_1_l_768_1152.jpg"
   },
   {
     id: "manikaran",
@@ -45,7 +45,7 @@ export const destinations = [
     altitude: "5,774 ft",
     distance: "80 km from Manali",
     description: "A sacred pilgrimage site in Parvati Valley with natural hot springs, Gurudwara Manikaran Sahib, and ancient Shiva temples.",
-    image: "https://images.unsplash.com/photo-1588097281266-31018addc6a8?auto=format&fit=crop&w=800&q=80"
+    image: "https://static.toiimg.com/thumb/105307305/Manikaran-Himachal-Pradesh.jpg?width=1200&height=900"
   },
   {
     id: "shinkula",
@@ -53,7 +53,7 @@ export const destinations = [
     altitude: "16,580 ft",
     distance: "120 km from Manali",
     description: "The high mountain pass on the border between Lahaul (HP) and Zanskar (Ladakh). Truly off-the-grid adventure.",
-    image: "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=800&q=80"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuO5jx-CF3F3-Oscurl73cg__OpyaqGeshOgTmkp-yeR0nCUi9fY8SGRs&s=10"
   },
   {
     id: "baralacha",
@@ -61,7 +61,7 @@ export const destinations = [
     altitude: "16,040 ft",
     distance: "190 km from Manali",
     description: "A high altitude pass connecting Lahaul district in Himachal to Ladakh. Home to the pristine Suraj Tal lake.",
-    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80"
+    image: "https://hblimg.mmtcdn.com/content/hubble/img/nouveau_ttd/mmt/activities/m_Spiti_Baralacha_La_6_l_600_900.jpg"
   },
   {
     id: "spiti",
@@ -69,6 +69,6 @@ export const destinations = [
     altitude: "12,500 ft",
     distance: "200 km from Manali",
     description: "A cold desert mountain valley, offering ancient monasteries, high altitude villages, and majestic stark landscapes.",
-    image: "https://images.unsplash.com/photo-1595662979146-5debe49ee312?auto=format&fit=crop&w=800&q=80"
+    image: "https://hblimg.mmtcdn.com/content/hubble/img/imgs_coll_dest/mmt/activities/m_spiti_dest_img3_l_356_634.jpg"
   }
 ];
